@@ -1,7 +1,7 @@
 <header class="site-header" id="siteHeader">
     <div class="header-inner">
         <a href="{{ route('home') }}" class="brand" aria-label="Visago home">
-            <img src="{{ asset('images/visago/logo.png') }}" alt="Visago">
+            <img src="{{ asset('images/visago/logo-red.png') }}" alt="Visago">
         </a>
 
         <nav class="primary-nav" id="primaryNav" aria-label="Main navigation">
@@ -65,14 +65,6 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </div>
-
-        <a href="tel:+0123456789" class="header-phone">
-            <span class="header-phone-icon"><i class="fa-solid fa-phone-volume"></i></span>
-            <span class="header-phone-copy">
-                <small>Call Anytime</small>
-                <strong>+012 345 6789</strong>
-            </span>
-        </a>
 
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
             <span></span><span></span><span></span>

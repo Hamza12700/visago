@@ -31,7 +31,7 @@
         <div class="container footer-grid">
             <div class="footer-col footer-about">
                 <a href="{{ route('home') }}" class="footer-brand" aria-label="Visago home">
-                    <img src="{{ asset('images/visago/logo-white.png') }}" alt="Visago">
+                    <img src="{{ asset('images/visago/logo-red.png') }}" alt="Visago">
                 </a>
                 <p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
                 <a href="{{ route('about') }}" class="btn btn-red btn-sm">Read More</a>
